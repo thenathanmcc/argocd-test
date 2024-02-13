@@ -8,7 +8,7 @@ image:
   repository: python-app
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: test
+  tag: v0.0.1
 
 imagePullSecrets: []
 nameOverride: ""
@@ -26,7 +26,7 @@ serviceAccount:
 podAnnotations: {}
 
 env:
-  APP_VERSION: test
+  APP_VERSION: v0.0.1
 podSecurityContext: {}
   # fsGroup: 2000
 
