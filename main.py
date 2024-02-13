@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "This is just a test version #3"
+    return "If you are seeing this, this automatically deployed"
 
 
 if __name__ == "__main__":
